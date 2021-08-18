@@ -95,15 +95,7 @@ body {
     color: var(--primary-color);
 }
 
-.secction {
-    padding: 2rem;
-}
-
-.section h1 {
-    text-align: center;
-}
-
-.od {
+.section {
     margin: auto;
     text-align: center;
     max-width: 70%;
@@ -111,6 +103,11 @@ body {
     padding: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+
+.section h1 {
+    text-align: center;
 }
 
 .footer {
