@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #991B1B;
+    --off-white: #F3F4F6;
+    --dark-gray: #6b7280;
+}
+body {
+    font-family: 'Montserrat',
+    sans-serif;
+    margin: 0px;
+}
+
+.container {
+    padding: 1rem 0rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    border-spacing: 1px;
+    border-color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondry-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+    text-align: right;
+}
+
+.navigation .nav-piils {
+    font-weight: bold;
+    font-size: 1.1 rem;
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+.navigation .nav-brand {
+    text-align: left;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.secction {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.od {
+    margin: auto;
+    text-align: center;
+    max-width: 70%;
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.secondry {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
