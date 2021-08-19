@@ -3,7 +3,7 @@
 :root {
     --primary-color: #991B1B;
     --off-white: #F3F4F6;
-    --dark-gray: #6b7280;
+    --dark-gray: #4B5563;
 }
 body {
     font-family: 'Montserrat',
@@ -87,6 +87,11 @@ body {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-head {
+    text-align: center;
     color: var(--dark-gray);
 }
 
